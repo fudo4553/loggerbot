@@ -60,7 +60,7 @@ async def RaspaManager(e):
                 if arc:
                     if varie():
                         await e.respond("**BENVENUTO NEL LOGGER BOT!\nUSALO PER MANTENERE I TUOI VOIP AL SICURO\n\n©**",
-                                        buttons=[[Button.inline("👨🏼‍💻PANNELLO👨🏼‍💻", "voip")]], [[Button.inline("Dev", "https://t.me/DebiruDansei")]])
+                                        buttons=[[Button.inline("👨🏼‍💻PANNELLO👨🏼‍💻", "voip")]])
                     else:
                         await e.respond("**BENVENUTO NEL LOGGER BOT!\nUSALO PER MANTENERE I TUOI VOIP AL SUCURO\n\n©**",
                                         buttons=[[Button.inline("👨🏼‍💻PANNELLO👨🏼‍💻", "voip")]])
